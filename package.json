@@ -1,0 +1,57 @@
+{
+  "name": "serverless-aws-node-chrome",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "author": "Blake Tsuhako",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">= 6.10.0"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.25.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-entries": "^1.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chrome-launcher": "^0.10.2",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "serverless-plugin-chrome": "^1.0.0-37",
+    "serverless-webpack": "^4.3.0",
+    "webpack": "^3.11.0"
+  },
+  "babel": {
+    "sourceMaps": true,
+    "presets": [
+      [
+        "env",
+        {
+          "modules": "commonjs",
+          "targets": {
+            "node": "6.10"
+          },
+          "include": [
+            "es7.object.values",
+            "es7.object.entries"
+          ]
+        }
+      ],
+      "stage-3"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-object-entries"
+    ]
+  },
+  "browser": {
+    "decompress-response": false,
+    "electron": false
+  }
+}
