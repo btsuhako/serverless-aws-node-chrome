@@ -6,3 +6,6 @@ jspm_packages
 
 # Serverless directories
 .serverless
+
+# OS X
+.DS_Store
