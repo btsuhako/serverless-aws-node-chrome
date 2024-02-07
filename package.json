@@ -19,7 +19,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
-    "chrome-launcher": "^0.10.5",
+    "chrome-launcher": "^0.13.2",
     "eslint": "^4.18.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.16.0",
