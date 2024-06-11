@@ -25,7 +25,7 @@
     "eslint-plugin-import": "^2.16.0",
     "serverless-plugin-chrome": "^1.0.0-55",
     "serverless-webpack": "^4.3.0",
-    "webpack": "^4.42.1"
+    "webpack": "^5.91.0"
   },
   "babel": {
     "sourceMaps": true,
