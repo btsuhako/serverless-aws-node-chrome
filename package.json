@@ -9,7 +9,7 @@
     "node": ">= 6.10.0"
   },
   "dependencies": {
-    "chrome-remote-interface": "^0.25.7"
+    "chrome-remote-interface": "^0.33.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
